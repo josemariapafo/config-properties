@@ -13,3 +13,12 @@ spring:
     name: ms-usuario
 server:
   port: 9091
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+      instance:
+        hostname: localhost
