@@ -19,7 +19,7 @@ spring:
         - id: ms-usuario
           uri: lb://ms-usuario
           predicates:
-            - Path=/usuario/**
+            - Path=/ms-usuario/**
         - id: ms-habilidades
           uri: lb://ms-habilidades
           predicates:
