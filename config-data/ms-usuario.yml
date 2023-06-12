@@ -10,6 +10,7 @@ spring:
         ddl-auto: none
         format_sql: true
   application:
+    zipkin: http://localhost:9411
     name: ms-usuario
 server:
   port: ${PORT:${SERVER_PORT:0}}

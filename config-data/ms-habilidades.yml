@@ -1,5 +1,6 @@
 spring:
   application:
+    zipkin: http://localhost:9411
     name: ms-habilidades
   datasource:
     url: jdbc:mysql://localhost:3306/portafolio
