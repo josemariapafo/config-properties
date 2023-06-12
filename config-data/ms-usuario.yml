@@ -1,4 +1,7 @@
 spring:
+  sleuth:
+    traceId128: true
+    supportsJoin: false
   datasource:
     url: jdbc:mysql://localhost:3306/portafolio
     username: root
